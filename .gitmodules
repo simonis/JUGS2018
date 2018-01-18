@@ -1,0 +1,4 @@
+[submodule "OpenJDKInsAndOuts"]
+	path = OpenJDKInsAndOuts
+	url = https://github.com/simonis/OpenJDKInsAndOuts.git
+	branch = JUGS2018
