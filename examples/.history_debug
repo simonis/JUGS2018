@@ -1,0 +1,7 @@
+java -XX:-UseCompressedOops -XX:+PrintFlagsFinal | less
+java -XX:+PrintFlagsFinal | less
+java -XX:+PrintFlagsInitial | less
+java -XX:+PrintFlagsWithComments | less
+java -XX:+UnlockExperimentalVMOptions -Xprintflags | wc
+java -Xprintflags | wc
+java -Xprintflags | less

@@ -1,0 +1,5 @@
+javap -v Matrix3D | less
+appletviewer -J-showversion -J-Djava.security.policy=java.policy jdk113/demo/MoleculeViewer/example1.html
+appletviewer -J-showversion -J-Djava.security.policy=java.policy jdk113/demo/WireFrame/example2.html 
+appletviewer -J-showversion -J-Djava.security.policy=java.policy jdk113/demo/WireFrame/example3.html 
+java -version

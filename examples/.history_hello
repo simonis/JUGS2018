@@ -1,0 +1,8 @@
+java -XX:+PrintOptoAssembly HelloWorld | less
+java -XX:+PrintAssembly HelloWorld | less
+java -XX:+PrintCompilation HelloWorld | less
+java -XX:+PrintInterpreter HelloWorld | less
+java -XX:+TraceBytecodes HelloWorld | less
+java -XX:+PrintBytecodeHistogram HelloWorld | less
+java -XX:+CountBytecodes HelloWorld 
+javap -v HelloWorld
